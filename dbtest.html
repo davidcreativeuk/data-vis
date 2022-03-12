@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en" class="base-html">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>datatbase api test | david design system</title>
+
+  <link rel="stylesheet" href="css/all.min.css">
+  
+</head>
+
+<body class="base-bg--white">
+  <script>
+    document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+  </script>
+  <header role="banner" class="base-font--black ">
+    <div class="base-header base-bg--white ">
+      <div class=" base-width-container base-header-flex">
+        <div class="base-header-logo">Database api</div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <div class="base-main-wrapper">
+      <div class="base-width-container">
+
+        <h1 class="base-heading-h1">I <span class="base-bg--teal" style="border-bottom:4px dotted #000000" id="verb-output">verb</span> object</h1>
+
+        <div class="base-form-group">
+          <fieldset class="base-fieldset">
+            <legend class="base-fieldset__legend base-fieldset__legend--h3">Verbs</legend>
+            <span id="verb-options"></span>
+          </fieldset>
+        </div>
+        <button id="chooseVerb" class="base-button base-button--teal">Continue</button>
+        <h2 class="base-heading-h3">Add verb</h2>
+        <form>
+          <div class="base-form-group">
+            <label class="base-label" for="verb">Verb</label>
+            <input class="base-input" id="verb" type="text" required>
+          </div>
+          <button class="base-button base-button--teal">Add verb</button>
+        </form>
+      </div>
+
+    </div>
+
+  </main>
+  <footer class="base-footer">
+    <div class=" base-width-container">
+      <ul>
+        <li class="base-footer-navitem"><a class="base-link" href="http://www.david.com">Site map</a></li>
+        <li class="base-footer-navitem"><a class="base-link" href="#">Contact services</a></li>
+        <li class="base-footer-navitem"><a class="base-link" href="#">Department of information</a></li>
+
+      </ul>
+    </div>
+  </footer>
+  <script src="javascript/db.js"></script>
+    <!-- <script src="javascript/base-all.js"></script> -->
+
+  <!--   <script>
+    window.initAll();
+  </script> -->
+</body>
+
+</html>
