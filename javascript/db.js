@@ -155,17 +155,17 @@ function addVerbToSession(id, value) {
 function addRadio(id, value, group) {
     //create container
     var div_container = document.createElement('div');
-    div_container.classList.add('base-radio__item');
+    div_container.classList.add('david-radio__item');
      //create radio input
      var radio_item = document.createElement('input');
-     radio_item.classList.add('base-radio__input');
+     radio_item.classList.add('david-radio__input');
      radio_item.type='radio';
      radio_item.id=value;
      radio_item.name=group;
      radio_item.value=value;
      //create radio label
      var radio_label = document.createElement('label');
-     radio_label.classList.add('base-radio__label');
+     radio_label.classList.add('david-radio__label');
      radio_label.htmlFor = value;
      radio_label.textContent = value;
      //create radio group

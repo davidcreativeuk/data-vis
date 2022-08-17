@@ -1,15 +1,15 @@
 function initAll() {
-    var menuButton = document.querySelector(".base-navbutton");
-    var navMenu = document.querySelector(".base-navbar");
+    var menuButton = document.querySelector(".david-navbutton");
+    var navMenu = document.querySelector(".david-navbar");
     
     
     menuButton.addEventListener('click', function () {
         
-        if (navMenu.classList.contains('base-navbar--open')) {
+        if (navMenu.classList.contains('david-navbar--open')) {
             this.setAttribute('aria-expanded', 'false');
-            navMenu.classList.remove('base-navbar--open');
+            navMenu.classList.remove('david-navbar--open');
         } else {
-            navMenu.classList.add('base-navbar--open');
+            navMenu.classList.add('david-navbar--open');
             this.setAttribute('aria-expanded', 'true');
         }
     });
